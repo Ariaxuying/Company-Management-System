@@ -1,0 +1,45 @@
+html, body {height: 100%;}
+body {height: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; margin: 0; padding: 0; background:#FFFFFF repeat-y left; color: #666;}
+	p {padding: 0; margin: 0;}
+	ul, li {list-style: none; padding: 0; margin: 0;}
+	img {border: none;}
+	h1, h2, h3, h4, h5 {padding: 0; margin: 0;}
+	.left {float: left;}
+	.right {float: right;}
+	.red {color: #C61B1B;}
+	.green {color: #98B22B; }
+	.smltxt {font-size: 11px;}
+	.hoverimg {background: #ccc; padding: 3px; float: left;}
+		.hoverimg:hover {cursor: pointer; background: #e4e4e4;}
+
+	/* Header Elements */
+	
+	#header {width: 100%; height: 70px; background: #98B22B  repeat-x bottom;}
+		.logo {float: left; padding: 20px 0 0 30px;}
+	
+		#searcharea {float: right; padding: 15px 15px 0 0;}
+			#searcharea p {color: #ccc; padding-top: 10px;}
+				#searcharea a {color: #ccc;}
+				#searcharea a:hover {color: #999;}
+			.searchbox {margin-left: 10px; font-size: 14px; color: #888; padding: 10px 15px; width: 350px; border: 1px solid #fff; -moz-border-radius: 8px; border-radius: 8px; background: #fff url(../img/bg_fade_med.png) repeat-x top;}
+			.searchbtn {background: url(../img/bg_btn_grey_lrg.png) repeat-x top; border: 1px solid #000; text-shadow: 1px 1px 1px #eee; padding: 10px; -moz-border-radius: 8px; border-radius: 8px;}
+				.searchbtn:hover {background: url(../img/bg_btn_grey_lrg.png) 0 -50px; cursor: pointer;}
+		
+
+					
+	/* Left Side/Navigation Elements */	
+	
+	#leftside {width: 225px; height: 100%; background: #ffff33  repeat-x top; position: absolute; top: 70px; border-right:1px solid #fff; padding-top: 10px;}
+	
+	/* Top User Info Box */
+	
+		.notifications {width:195px; padding: 15px; color: #33ccff; overflow: auto; text-shadow: 1px 1px 1px #111; background: url(../img/bg_left_spacer.png) repeat-x bottom;}
+			.user img {float: left; margin: 5px 15px 10px 0;}
+			.username {color: #66ccff; font-size: 18px; font-weight:700; letter-spacing: -1px; padding-bottom: 5px;}
+			.userbtn {text-shadow: none; float: left; padding-right: 5px; text-align: center;}
+				.userbtn a {display: block; color: #000; text-shadow: 1px 1px 1px #eee; font-size: 11px; width: 58px; background: #ccc url(../img/bg_btn_grey_sml.png) repeat-x top; border: 1px solid #000; padding: 2px 0; text-decoration: none; border-radius: 5px; -moz-border-radius: 5px;}
+					.userbtn a:hover {color: #fff; background: #eee  0 -30px; text-shadow: none;}
+		
+		
+	
+	
